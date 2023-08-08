@@ -1,18 +1,17 @@
 __pycache__/
 *.py[cod]
 *$py.class
-*.log
 *.logs
 data/imgs
 data/test_data
+data/test_data_mini
 data/train_data
 .idea
 .DS_Store
 
 xxx.jpg
 0_image00002_0.jpg
-*.ipynb
 *.log
 checkpoint/v3/train_v3.log
 *.log
-*.log
+*.pth

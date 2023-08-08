@@ -110,7 +110,7 @@ def validate(wlfw_val_dataloader, plfd_backbone):
         print('nme: {:.4f}'.format(np.mean(nme_list)))
         # auc and failure rate
         failureThreshold = 0.1
-        auc, failure_rate = compute_auc(nme_list, failureThreshold, False)
+        auc, failure_rate = compute_auc(nme_list, failureThreshold, 0.0001, False)
         print('auc @ {:.1f} failureThreshold: {:.4f}'.format(failureThreshold, auc))
         print('failure_rate: {:}'.format(failure_rate))
         # inference time

@@ -81,3 +81,9 @@ https://github.com/polarisZhao/PFLD-pytorch
 https://github.com/microsoft/onnxruntime
 
 https://github.com/kuan-wang/pytorch-mobilenet-v3
+
+
+测试：
+```bash
+python test.py --backbone v3 --model_path "./checkpoint/v3/v3.pth"
+```
